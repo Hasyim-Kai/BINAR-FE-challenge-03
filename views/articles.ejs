@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <%- include('partials/head'); %>
+  <body>
+    <%- include("partials/navbar"); %>
+    <div class="container m-4">
+        <% articles.forEach( item => { %> <% if(item.approved) { %>
+            <div class="container m-2">
+                <h1><%= item.title %> <span class="badge bg-primary"><%= item.id %></span></h1>
+                <p><%= item.body %></p>
+            </div>
+            <% } %> <% }) %>      
+    </div>
+  </body>
+</html>

@@ -30,21 +30,21 @@
             <!-- TITLE & ADD BUTTON -->
             <div class="d-flex justify-content-between">
               <h5 class="mb-4"><b>List Car</b></h5>
-              <a href="addcar"><button type="submit" class="btn btn-danger">
+              <a href="addcar"><button type="submit" class="btn btn-darkblue">
                 <img src="images/icons/fi_plus.svg" alt="Plus"> Add New Car
               </button></a>
             </div>
 
             <!-- FILTER BUTTON GROUP -->
             <div class="d-flex gap-3 mb-4">
-              <button type="submit" class="btn btn-outline-danger active">All</button>
-              <button type="submit" class="btn btn-outline-danger">Small</button>
-              <button type="submit" class="btn btn-outline-danger">Medium</button>
-              <button type="submit" class="btn btn-outline-danger">Large</button>
+              <button type="submit" class="btn btn-outline-darkblue">All</button>
+              <button type="submit" class="btn btn-outline-darkblue">Small</button>
+              <button type="submit" class="btn btn-outline-darkblue">Medium</button>
+              <button type="submit" class="btn btn-outline-darkblue">Large</button>
             </div>
 
             <!-- CAR CARD LIST -->
-            <section class="d-flex flex-wrap gap-4">
+            <section class="d-flex flex-wrap justify-content-evenly gap-4">
               <% for(let i = 0; i < 9; i++){ %>
                 <%- include("partials/car_card"); %>
               <% } %>  

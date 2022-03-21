@@ -6,7 +6,4 @@ router.get('/dashboard', page.home)
 router.get('/car', page.car)
 router.get('/addcar', page.addCar)
 
-router.get('/about', page.about)
-router.get('/articles', page.articles)
-
 module.exports = router;

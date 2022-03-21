@@ -24,13 +24,3 @@ exports.addCar = (req, res) => {
     const title = `Add New Car`;
     res.render('add_new_car', { title })
 }
-
-exports.about = (req, res) => {
-    res.render('about', { title: 'About' })
-}
-
-exports.articles = (req, res) => {
-    model.Article.findAll()
-        .then(articles => res.render('articles',
-            { title: 'Articles', articles }))
-}

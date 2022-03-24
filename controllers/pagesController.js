@@ -1,8 +1,8 @@
 const model = require('../models')
 
 exports.login = (req, res) => {
-    let title = 'Login';
-    res.render('login', { title })
+    let title = 'Login';    
+    res.render('login', { title });
 }
 
 exports.home = (req, res) => {

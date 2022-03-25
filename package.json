@@ -2,7 +2,9 @@
   "name": "binar-fe-challenge-03",
   "version": "0.0.0",
   "private": true,
-  "scripts": {},
+  "scripts": {
+    "start": "node app.js"
+  },
   "dependencies": {
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",

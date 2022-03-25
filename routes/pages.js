@@ -6,7 +6,7 @@ router.get('/', page.login)
 router.post('/', (req, res) => {res.cookie('token', 'token123'); res.redirect('/dashboard');})
 
 router.get('/dashboard', Satpam, page.home)
-router.get('/car', page.car)
-router.get('/addcar', page.addCar)
+router.get('/car', Satpam, page.car)
+router.get('/addcar', Satpam, page.addCar)
 
 module.exports = router;

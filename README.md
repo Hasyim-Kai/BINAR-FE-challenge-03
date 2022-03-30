@@ -1,4 +1,6 @@
-# :chicken: Challenge-03 Screenshot
+# :chicken: BINAR FE Challenge-03
+### :trumpet: Tech Stack : Epress Js + Ejs + CSS + Bootstrap
+## :camera: Screenshot
 ## :star: Login Page
 ![Login Page](./public/images/screenshot/ss-login.png)
 <br>
